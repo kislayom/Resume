@@ -64,7 +64,7 @@
         // Default options
         var defaults = {
             globalStyles : true,
-            mediaPrint : false,
+            mediaPrint : true,
             stylesheet : null,
             noPrintSelector : ".no-print",
             iframe : true,
