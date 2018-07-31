@@ -135,6 +135,14 @@ $(function() {
         open_layout();
     });
 
+
+    $('.product_6').click(function(){
+        del_slide();
+        $('.carousel').carousel(5);
+        add_slide();
+        open_layout();
+    });
+
     $('.btn_more').click(function(){
         del_slide();
         $('.carousel').carousel(5);
